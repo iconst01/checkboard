@@ -23,3 +23,24 @@ div{
     height: 100px;
     width: 100px;
 }
+/*Mobile style */
+@media (max-width: 600px){
+    div{
+        height:80px; 
+        width: 80px;
+    }
+}
+/*tablet */
+@media (min-width: 601px) and (max-width:1024){
+    div{
+        height: 90px; 
+        width:90px;
+    }
+}
+/*desktop */
+@media (min-width: 1025px){
+    div{
+        height:100px;
+        width: 100px;
+    }
+}
