@@ -1,0 +1,25 @@
+body{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    margin: 0%;
+
+}
+.black{
+background-color: black;
+
+}
+
+.white{
+    background-color: white;
+}
+
+.checkboard{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+div{
+    height: 100px;
+    width: 100px;
+}
